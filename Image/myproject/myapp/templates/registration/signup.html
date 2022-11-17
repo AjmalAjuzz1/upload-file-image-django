@@ -1,0 +1,61 @@
+<!-- <h2>Sign Up</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form }}
+  <button type="submit">Sign up</button>
+</form> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Signup</title>
+
+</head>
+<style>
+  .one{
+  
+    
+    background-color: aqua;
+    border-radius: 25px;
+    border : black 5px solid;
+    margin-top :150px;
+    margin-left: 522px;
+    width: 250px;
+    padding :50px;
+    text-align: center;
+
+  }
+  .two{
+    background-color: rgb(149, 255, 0);
+  }
+  </style>
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Signup</title>
+
+</head>
+    
+      <div class="one">
+        <div class="container">
+        <div class="row">
+          <h5><span style="color:#f91418">Registration for Signup </span></h5>
+          
+      <form action="" method="post">
+          {% csrf_token %}
+          {{ form }}
+          <button type="submit" class="two" style="color:#f91418">Sign up</button>
+      </form>
+        </div>
+      </div>
+      </div>
+      
+</body>
+</html>
